@@ -6,6 +6,11 @@ name: dy-video
 description: 抖音视频数据只读：关键词搜视频/图文、用户/达人搜索、博主作品、作品详情、评论、热榜；可做公域获客/竞品截流（search→comment）与需求挖掘。触发：抖音搜索、搜用户、找达人、找对标账号、获客、线索、截流、高意向、热搜、评论、需求挖掘、痛点、作品详情、博主作品、播放量、选题、舆情、竞品。小红书、快手、B站、微博、公众号不要用本技能。sec_uid、aweme_id、douyin search、douyin user search、douyin hot、douyin detail、douyin comments。
 license: MIT
 version: 1.5.1
+display_name: "抖音视频数据｜关键词搜索·作品详情·博主作品·互动数据"
+display_name_en: "Douyin Video"
+description_zh: "抖音视频公开数据（只读）：关键词搜视频/图文（支持排序、时间范围、时长、内容类型），用户/达人搜索，博主作品列表与粉丝获赞数据，作品详情（标题、封面、时长、发布时间、播放、点赞、评论、分享、收藏、文案），视频评论与抖音热榜/热搜。输出结构化 JSON，可直接导入 Excel/BI，用于选题、对标账号、竞品分析、舆情监控、需求挖掘与公域获客。无需登录抖音、不写操作、零第三方依赖。按量单次最多 1 万条；包月视频搜索/用户搜索/作品 ≤30 条、评论 ≤50 条（详情与热榜不限），超限返回 PLAN_LIMIT。"
+description_en: "Douyin (TikTok China) public video data, read-only: keyword search for videos and image posts with sorting, time range, duration and content-type filters; user/creator search; a creator's post list with follower and like counts; post detail (title, cover, duration, publish time, plays, likes, comments, shares, saves, caption); video comments; and the Douyin hot list. Returns structured JSON that drops straight into Excel/BI for topic selection, competitor benchmarking, sentiment monitoring, demand mining and public-traffic lead generation. No Douyin login, no write operations, zero third-party dependencies. Up to 10,000 records per metered call; on monthly plans search/user-search/posts are capped at 30 and comments at 50 (detail and hot list unlimited), beyond which PLAN_LIMIT is returned."
+author: "新郑市怪奇信息技术工作室"
 metadata:
   openclaw:
     emoji: "🎬"
